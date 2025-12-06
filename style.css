@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, black, rgb(35, 34, 34), black);
+}
+.app {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgb(251, 251, 251);
+  min-height: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+  animation: fadeIn 0.5s ease-in-out;
+}
+.app h1 {
+  text-align: center;
+  padding: 17px;
+}
+.line {
+  color: grey;
+}
+.yo {
+  margin-top: 8px;
+}
+.app h2 {
+  font-weight: 500;
+}
+.answers {
+  border: black;
+  border-radius: 10px;
+}
+.op1 {
+  margin-top: 10px;
+  width: 100%;
+  background: #f4f4f4;
+  padding: 14px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  font-weight: 500;
+}
+.op1:hover {
+  background: black;
+  color: white;
+  border-radius: 25px;
+}
+.nextBtn {
+  margin-top: 15px;
+}
+#nextBtn {
+  all: unset;
+  display: block;
+  margin: 0 auto;
+  padding: 9px 19px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: oklch(48.8% 0.243 264.376);
+  color: white;
+}
+#nextBtn:hover {
+  background: oklch(21.748% 0.06297 253.52);
+  color: wheat;
+}
+.down {
+  margin-top: 10px;
+}
