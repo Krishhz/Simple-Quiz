@@ -20,9 +20,9 @@ const questions = [
     answer: "Cascading Style Sheets",
   },
   {
-    question: "Who is Aaradhya dalai?",
-    options: ["bankda Queen", "Gandha Queen", "Gendi", "Ajab chua "],
-    answer: "Gendi",
+    question: "Where can you find a penguin?",
+    options: ["Rajasthan", "Himalay", "Antarctica", "Arabian Sea"],
+    answer: "Antarctica",
   },
   {
     question: "HTML stands for?",
